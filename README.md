@@ -69,7 +69,7 @@ The analytical expectation (Hirth) gives $\alpha \approx 0.5$ for a pure edge an
 ## microMegas Simulation
 
 <p align="center">
-  <img src="figures/frank_read_source_Cu_simulation.gif" width="480"/><br>
+  <img src="figures/microMegas.gif" width="350"/><br>
   <sub>DDD simulation — Frank-Read source activation in 3 µm Cu cell</sub>
 </p>
 
