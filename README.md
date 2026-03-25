@@ -13,7 +13,7 @@ Discrete Dislocation Dynamics (DDD) simulations of Frank-Read source activation 
 
 ---
 
-## Task 1 — Critical Stress Determination
+## Critical Stress Determination
 
 A single pinned segment of length $L = 100\,\text{nm}$ ($29\,\text{BVD}$) is set up in a $3\,\mu\text{m} \times 3\,\mu\text{m} \times 3\,\mu\text{m}$ Cu simulation cell. Three stress levels are applied (150, 154.8, and 160 MPa) to bracket the activation threshold. The critical resolved shear stress is defined as the minimum $\tau$ that produces a finite, sustained plastic strain after the initial transient.
 
@@ -37,7 +37,7 @@ The $\tau$–$\gamma$ and $\sigma$–$\varepsilon$ curves confirm that no measur
 
 ---
 
-## Task 2 — Critical Stress vs. Segment Length
+## Critical Stress vs. Segment Length
 
 The segment length is varied from 50 nm to 200 nm in increments of 25 nm. For each length the critical stress is bracketed by simulation and compared to the analytical Frank–Read prediction:
 
@@ -56,7 +56,7 @@ Both simulation and analytical results follow the expected $\tau_\text{crit} \pr
 
 ---
 
-## Task 3 — Orientation Dependence and the α Factor
+## Orientation Dependence and the α Factor
 
 Starting from the Task 1 geometry, the character angle $\beta$ between the dislocation line and $\mathbf{b}$ is varied from pure edge ($\beta = 90°$) toward pure screw ($\beta = 0°$). In microMegas, segment orientations are selected from the `BVD.CFC` table, which fixes both the line direction and the Burgers vector direction jointly, constraining which mixed characters are accessible on a given slip plane. The effective $\alpha$ is extracted for each orientation via:
 
@@ -68,11 +68,10 @@ The analytical expectation (Hirth) gives $\alpha \approx 0.5$ for a pure edge an
 
 ## microMegas Simulation
 
-<table>
-  <tr>
-    <td align="center"><img src="figures/frank_read_source_Cu_simulation.gif" width="480"/><br><sub>DDD simulation — Frank-Read source activation in 3 µm Cu cell</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="figures/frank_read_source_Cu_simulation.gif" width="480"/><br>
+  <sub>DDD simulation — Frank-Read source activation in 3 µm Cu cell</sub>
+</p>
 
 ---
 
