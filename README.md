@@ -83,6 +83,8 @@ pip install numpy matplotlib pandas
 
 microMegas (mM) is required to reproduce the raw simulation data. See the [mM project page](http://zig.onera.fr/mm_home_page/) for installation instructions.
 
+The mM input files used in this practical (`Cu`, `ContCu`, `SegCu`) are in [`inputs/`](inputs/). Copy them into the `in/` directory of the mM installation before running.
+
 ---
 
 ## Usage
